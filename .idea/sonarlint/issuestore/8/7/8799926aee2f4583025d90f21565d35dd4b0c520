@@ -1,0 +1,16 @@
+
+
+java:S1128"lRemove this unused import 'org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory'.(Ææ×…ıÿÿÿÿ8«äÒ¤å.
+g
+java:S1128
+"JRemove this unused import 'springfox.documentation.spi.DocumentationType'.(ÉêÉ¥8¹±Ø£å.
+}
+java:S1128"[Remove this unused import 'org.springframework.boot.web.server.WebServerFactoryCustomizer'.(ñËòúÿÿÿÿ8«äÒ¤å.
+h
+java:S1128"KRemove this unused import 'springfox.documentation.builders.PathSelectors'.(âİ¸ñ8¹±Ø£å.
+w
+java:S1128	"URemove this unused import 'springfox.documentation.builders.RequestHandlerSelectors'.(òßª¿ıÿÿÿÿ8¹±Ø£å.
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8«äÒ¤å.
+k
+java:S1128"NRemove this unused import 'springfox.documentation.spring.web.plugins.Docket'.(‡éÔå8¹±Ø£å.
