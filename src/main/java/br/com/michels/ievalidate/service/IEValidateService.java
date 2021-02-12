@@ -1,5 +1,6 @@
 package br.com.michels.ievalidate.service;
 
+import br.com.caelum.stella.validation.InvalidStateException;
 import br.com.caelum.stella.MessageProducer;
 import br.com.caelum.stella.ResourceBundleMessageProducer;
 import br.com.caelum.stella.type.Estado;
@@ -39,7 +40,11 @@ public class IEValidateService {
         try {
             final Estado estado = Estado.valueOf(parameter.getState());
             final Validator<String> validator = estado.getIEValidator(this.messageProducer, false);
-            builder.valid(validator.isEligible(parameter.getStateRegistration()));
+            validator.assertValid(parameter.getStateRegistration());
+            builder.valid(Boolean.TRUE);
+        } catch (InvalidStateException e){
+            builder.errors(Arrays.asList(new ErrorDTO((e.getMessage()))));
+            builder.valid(Boolean.FALSE);
         } catch (IllegalArgumentException e){
             final ErrorDTO error = new ErrorDTO(String.format("%s status is not supported. Supported states are %s",
                     parameter.getState(),

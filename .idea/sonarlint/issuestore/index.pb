@@ -23,3 +23,9 @@ w
 Gsrc/test/java/br/com/michels/ievalidate/IeValidateApplicationTests.java,d/7/d7d08c5f5742d563010d4b2c88c2edfb803cc7ed
 ˆ
 Xsrc/test/java/br/com/michels/ievalidate/controllers/StateRegistrationControllerTest.java,2/1/2177dd6f65aecff04c640df3adaa4dcbf987d452
+|
+Lsrc/test/java/br/com/michels/ievalidate/service/IEValidateServiceSETest.java,f/b/fbe3550ed4d8c23fe38f940cf9dd6b46120f9186
+|
+Lsrc/test/java/br/com/michels/ievalidate/service/IEValidateServiceDFTest.java,3/c/3c43a2e299f238870bcc04b6ce81a319d6ffd50c
+|
+Lsrc/test/java/br/com/michels/ievalidate/service/IEValidateServiceRSTest.java,e/1/e1b1ef7fd234a4d9522ccdcc6d250e28dff0919a
